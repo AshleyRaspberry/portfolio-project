@@ -66,7 +66,23 @@ margin: 0;
 .project-description {
     padding: 120px 60px;
 }
+.about-section {
+    font-size: 64px;
+    line-height: 80px;
+    padding: 160px 20px;
+}
+.about-section h2 {
+    font-family: var(--default-font-family);
+    font-size: 18px;
+}
 
+.about-section-content {
+    margin: 30px;
+}
+.profile-picture {
+    border-radius: 8px;
+    max-width: 400px;
+}
 @media (max-width: 900px) {
     h1 {
         font-size: 45px;
@@ -81,5 +97,9 @@ margin: 0;
     .project-description {
         padding: 0;
         text-align: center;
+    }
+    .about-section {
+        text-align: center;
+        padding: 0;
     }
 }
