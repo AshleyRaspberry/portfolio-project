@@ -67,18 +67,34 @@ margin: 0;
     padding: 120px 60px;
 }
 .content-container {
-    font-size: 64px;
-    line-height: 80px;
     padding: 160px 20px;
 }
-.content-container h2 {
+.content h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.content h2 {
     font-family: var(--default-font-family);
     font-size: 18px;
 }
 
+
+.content h3 {
+    font-size: 24px;
+    font-family: var(--default-font-family);
+
+    line-height: 1;
+}
+
+.content p {
+    font-size: 14px;
+    margin: 0;
+}
 .content {
     margin: 30px;
 }
+
 .profile-picture {
     border-radius: 8px;
     max-width: 400px;
