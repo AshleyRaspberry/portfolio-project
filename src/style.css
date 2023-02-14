@@ -1,5 +1,5 @@
 :root {
-    --branding-color: #6c63ff;
+    --branding-color: #0F6A80;
     --heading-font-family: 'Playfair Display', serif;
     --default-font-family: 'Poppins', serif;
     --secondary-color:  #f9f7fe;
@@ -94,7 +94,10 @@ margin: 0;
 .content {
     margin: 30px;
 }
-
+.fishing-project {
+    opacity: .2;
+    max-width: 400px;
+}
 .profile-picture {
     border-radius: 8px;
     max-width: 400px;
