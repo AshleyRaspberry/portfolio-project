@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ashley Bondurant</title>
+    <title>About Ashley Bondurant: Front-end developer</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,6 +32,33 @@
     <link rel="stylesheet" type="text/css" href="src/style.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="index.html" title="Homepage">
+          <img
+            src="images/a-bond-logo.png"
+            class="logo d-none d-sm-block"
+            alt="A.Bondurant logo"
+          />
+          <ul>
+            <li>
+              <a href="index.html" title="Homepage">Home</a>
+            </li>
+            <li class="active">
+              <a href="about.html" title="About Ashley">About</a>
+            </li>
+            <li>
+              <a href="work.html" title="Ashley's work examples">Work</a>
+            </li>
+            <li>
+              <a href="contact.html" title="Ashley's contact information"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </a>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-md-6">
@@ -40,7 +67,7 @@
             <h2 class="mb-4">Front-end developer based in Mississippi</h2>
             <p class="mb-4">
               After graduating with a B.S. in Human Development from Virginia
-              Tech, I built a career working with the disabled, elderly, and
+              Tech, I built a career working with youth, elderly, and the
               intellectually disabled; although I am passionate about helping
               others in a hands-on occupation, I developed an interest in coding
               during the Covid-19 pandemic and decided to take my future in a
@@ -55,11 +82,59 @@
         <div class="col-lg-6">
           <img
             src="images/Profile.jpg"
-            alt=""
-            class="profile-picture img-fluid"
+            alt="Ashley's profile picture"
+            class="profile-picture img-fluid mt-5"
           />
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a href="contact.html" class="btn btn-branding" title="Contact Ashley"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:alafram1@gmail.com"
+          class="email-link"
+          title="Email Ashley"
+          >alafram1@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/ashleyraspberry"
+          target="_blank"
+          title="Github Profile"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://twitter.com/AshleyLaFrambo5"
+          target="_blank"
+          title="Twitter Profile"
+        >
+          <i class="fa-brands fa-twitter"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/ashley.laframboise.3"
+          target="_blank"
+          title="Facebook Profile"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Ashley Bondurant and is
+        <a href="https://github.com/ashleyraspberry" target="_blank"
+          >open-sourced</a
+        >.
+      </p>
+    </footer>
   </body>
 </html>
